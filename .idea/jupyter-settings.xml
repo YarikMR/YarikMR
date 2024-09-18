@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/../Affective-text-gen-master/.idea/Affective-text-gen-master.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../gpt2_classifiers/.idea/gpt2_classifiers.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../open_prompt/.idea/open_prompt.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="managed" value="true" />
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
