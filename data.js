@@ -1,11 +1,28 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
+"I'm a Ph.D. candidate in Computational Linguistics, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With experience in both academic and industry research, I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I’ve also taught and mentored students, and I enjoy applying my skills to solve real-world problems, whether it's through research or implementing AI-driven solutions.",
   "Thanks for visiting!",
 ];
 
 export const skills = [
   {
+    title: "Languages",
+    skillName: "JavaScript, TypeScript",
+    color: "1",
+    percentage: "80",
+  },
+    {
+    title: "Languages",
+    skillName: "JavaScript, TypeScript",
+    color: "1",
+    percentage: "80",
+  },
+    {
+    title: "Languages",
+    skillName: "JavaScript, TypeScript",
+    color: "1",
+    percentage: "80",
+  },
+    {
     title: "Languages",
     skillName: "JavaScript, TypeScript",
     color: "1",
@@ -217,28 +234,77 @@ export const experience = [
 ];
 
 export const education = [
+//  {
+//    title: "Ph.D. in Computational Linguistics.",
+//    duration: "Jul 2021 - Dec 2024",
+//    subtitle: "University of Stuttgart, Germany",
+//    details: [],
+//    tags: [
+//      "Natural Language Processing (NLP) & Large Language Models (LLMs)",
+//      "Prompt Optimization & Text Generation",
+//      "Model Optimization"
+//      "Deep Learning & Machine Learning",
+//      "Python Pytorch & TensorFlow",
+//      "Cloud Services",
+//      "GPT-API LangChain Gemini",
+//    ],
+//    icon: "graduation-cap",
+//  },
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "Ph.D. in Computational Linguistics.",
+    duration: "Jul 2021 - Dec 2024",
+    subtitle: "University of Stuttgart, Germany",
     details: [],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Natural Language Processing (NLP) & Large Language Models (LLMs)",
+      "Prompt Optimization & Text Generation",
+      "Model Optimization",
+      "Deep Learning & Machine Learning",
+      "Python, Pytorch & TensorFlow",
+      "Cloud Services",
+      "GPT-API, Gemini & LangChain",
     ],
     icon: "graduation-cap",
   },
-  {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    {
+    title: "M.Sc. in Computer Science.",
+    duration: "2015 - 2017",
+    subtitle: "Instituto Politécnico Nacional, México",
     details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
+    tags: [
+      "Natural Language Processing (NLP) & Recommender Systems",
+      "Sentiment Analysis",
+      "Deep Learning & Machine Learning",
+      "Python & TensorFlow",
+      "Java, C++, C# & Matlab",
+      "SQL",
+      "GIT",
+    ],
+    icon: "graduation-cap",
+  },
+
+      {
+    title: "B.E. Computer Engineering.",
+    duration: "2011 - 2015",
+    subtitle: "Instituto Politécnico Nacional, México",
+    details: [],
+    tags: [
+      "Algorithms",
+      "Python",
+      "Java, C++, C# & Matlab",
+      "SQL",
+    ],
+    icon: "graduation-cap",
+  },
+
+  {
+    title: "Computer Technician",
+    duration: "2008 - 2011",
+    subtitle: "CBtis 03, México",
+    details: [],
+    tags: ["C++", "Matlab", "Java"],
+    icon: "graduation-cap",
+//    icon: "book",
   },
 ];
 
@@ -280,14 +346,6 @@ export const footer = [
   {
     label: "Links",
     data: [
-    //   {
-    //     text: "Linkedin",
-    //     link: "https://www.linkedin.com/in/vinaysomawat/",
-    //   },
-    //   {
-    //     text: "Twitter",
-    //     link: "https://twitter.com/thesigmakid",
-    //   },
       {
         text: "Buy me a coffee",
         link: "https://www.buymeacoffee.com/r194dME8y",
