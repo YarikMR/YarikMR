@@ -167,70 +167,40 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "truck ",
+    title: "Graduate Research Assistant",
+    duration: "Apr 2024 - Dec 2024",
+    subtitle: "Otto-Friedrich-Universität Bamberg, Germany",
+    details: ["Conducted research on prompt optimization methods for language models and managed cloud GPU server environments for large-scale language model deployment."],
+    tags: ["Python", "Git", "Cloud Services", "LLMs", "Pytorch", "TensorFlow"],
+    icon: "language",
+  },
+    {
+    title: "Graduate Teaching Assistant",
+    duration: "Apr 2022 - Mar 2024",
+    subtitle: "University of Stuttgart, Germany",
+    details: ["Taught, evaluated, and supervised bachelor's and master's students in Natural Language Processing courses, including Information Retrieval and Teamlab, focusing on practical applications and research mentorship."],
+    tags: ["Python", "Git", "NLP", "Algorithms", "LLMs", "TensorFlow"],
+    icon: "book",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
-    details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
-    ],
-    tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
-    ],
-    icon: "heartbeat",
+    title: "Data Scientist",
+    duration: "Jun 2018 - Oct 2021",
+    subtitle: "Kantar, México",
+    details: ["Researched and developed AI/ML methodologies for large language models, chatbots, text mining, basket analysis, and prediction.",
+    "Created a natural language processing application for 10 languages.",
+    "Implemented machine learning techniques such as deep neural networks, regression, and decision trees."],
+    tags: ["Azure", "Docker", "NLP", "Recommender Systems", "Market Research", "TensorFlow", "Python"],
+    icon: "globe",
   },
-  {
-    title: "Novopay Solutions Private Limited",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      `Implemented AePS Services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements,
-            and Money transfer.`,
-      `Implemented QR Code integration for retailer wallet money loading, Clevertap events for user action tracking,
-            Freshdesk ticketing, Chatbot services, and Retailer onboarding/admin interfaces.`,
-      `Developed retailer QR code system for seamless money loading into wallets, resulting in improved user transactions.`,
-      `Achieved 70 percent code coverage of the entire application by writing unit tests for legacy code.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "qrcode",
+    {
+    title: "Research Intern",
+    duration: "Feb 2017 - Aug 2017",
+    subtitle: "University of Wolverhampton, United Kingdom",
+    details: ["Developed a sentiment analysis application for Spanish texts."],
+    tags: ["Sentiment Analysis", "Python", "NLP", "Recommender Systems", "Social Media"],
+    icon: "language",
   },
-  {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
-    details: [
-      `Developed a customer web application for social media management, supporting the advertisement domain.`,
-    ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
-  },
+
 ];
 
 export const education = [
