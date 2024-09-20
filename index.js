@@ -468,21 +468,19 @@ import { URLs } from './user-data/urls.js';
       return (years == 1) ? `${years} year ago` : `${years} years ago`;
     }
   }
-  
+
   populateBio(bio, "bio");
   
   populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
+//  fetchBlogsFromMedium(medium);
   fetchGitConnectedData(gitConnected);
-  
-  populateProjects(webProjects, "web-projects");
-  populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
   
   populateLinks(footer, "footer");
+
+
   

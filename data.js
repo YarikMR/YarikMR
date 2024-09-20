@@ -1,6 +1,5 @@
 export const bio = [
 "I'm a Ph.D. candidate in Computational Linguistics, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With experience in both academic and industry research, I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I’ve also taught and mentored students, and I enjoy applying my skills to solve real-world problems, whether it's through research or implementing AI-driven solutions.",
-  "Thanks for visiting!",
 ];
 
 const publications = [
@@ -431,3 +430,40 @@ export const footer = [
     ],
   },
 ];
+
+export const blogs = [
+{
+  title: "A GPT-3 Text Classifier for Everyone",
+  platform: "Medium",
+  link: "https://medium.com/@yarikmenchacar/a-gpt-3-text-classifier-for-everyone-51861c43ccf9",
+  description: "A practical guide on building a versatile text classifier using GPT-3, showcasing how even non-experts can leverage GPT-3's capabilities for various text classification tasks."
+},
+  {
+    title: "Multi-Language Sentiment Classifier",
+    platform: "Medium",
+    link: "https://medium.com/@yarikmenchacar/multi-language-sentiment-classifier-d5307966b002",
+  description: "A guide to building a multi-language sentiment classifier using training data in a single language, demonstrating how to extend sentiment analysis across languages without needing multilingual training datasets."
+  },
+  {
+    title: "A Simple Multi-Class Text Classification with Transformers",
+    platform: "LinkedIn",
+    link: "https://www.linkedin.com/pulse/simple-multi-class-text-classification-transformers-yarik/?trackingId=GIapnVUdQzC4jGJkHXirzA%3D%3D",
+  description: "A practical introduction to building (with code) a simple multi-class text classifier using transformer models, explaining the implementation process for text classification tasks."
+  },
+];
+
+// Populate the blogs section
+const blogsList = document.getElementById('blogs');
+
+blogs.forEach(blog => {
+  const listItem = document.createElement('li');
+  listItem.innerHTML = `
+    <h3>${blog.title}</h3>
+    <p><strong>${blog.platform}</strong></p>
+    <p>${blog.description}</p>
+    <a href="${blog.link}" target="_blank">Read more &RightArrow;</a>
+    <br><br>
+  `;
+  blogsList.appendChild(listItem);
+});
+
