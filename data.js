@@ -3,6 +3,103 @@ export const bio = [
   "Thanks for visiting!",
 ];
 
+const publications = [
+  {
+    authors: "Amelie Wuehrl, Lynn Greschner, Yarik Menchaca Resendiz, and Roman Klinger",
+    title: "IMS_medicALY at #SMM4H 2024: Detecting impacts of outdoor spaces on social anxiety with data augmented ensembling",
+    conference: " Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
+    organization: "Association for Computational Linguistics",
+    year: 2024,
+    httpLink: "https://aclanthology.org/2024.smm4h-1.19/",
+    pdfLink: "https://aclanthology.org/2024.smm4h-1.19.pdf"
+  },
+  {
+    authors: "Amelie Wührl, Yarik Menchaca Resendiz, Lara Grimminger, and Roman Klinger",
+    title: "What makes medical claims (un)verifiable? analyzing entity and relation properties for fact verification",
+    editors: "Yvette Graham and Matthew Purver, editors",
+    conference: "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    location: "St. Julian's, Malta",
+    pages: "2046--2058",
+    month: "March",
+    year: 2024,
+    organization: "Association for Computational Linguistics",
+    arxivLink: "https://arxiv.org/abs/2402.01360",
+    httpLink: "https://aclanthology.org/2024.eacl-long.124/",
+    pdfLink: "https://aclanthology.org/2024.eacl-long.124.pdf"
+  },
+  {
+    authors: "Yarik Menchaca Resendiz and Roman Klinger",
+    title: "Affective natural language generation of event descriptions through fine-grained appraisal conditions",
+    conference: "Proceedings of the 16th International Conference on Natural Language Generation",
+    location: "Prague, Czech Republic",
+    month: "September",
+    year: 2023,
+    organization: "Association for Computational Linguistics",
+    arxivLink: "https://arxiv.org/abs/2307.14004",
+    httpLink: "https://aclanthology.org/2023.inlg-main.26/",
+    pdfLink: "https://aclanthology.org/2023.inlg-main.26.pdf"
+  },
+  {
+    authors: "Yarik Menchaca Resendiz and Roman Klinger",
+    title: "Emotion-conditioned text generation through automatic prompt optimization.",
+    conference: "Proceedings of the 1st Workshop on Taming Large Language Models: Controllability in the era of Interactive Assistants!",
+    location: "Prague, Czech Republic",
+    pages: "24–30",
+    month: "September",
+    year: 2023,
+    organization: "Association for Computational Linguistics",
+    arxivLink: "https://arxiv.org/abs/2308.04857",
+    httpLink: "https://aclanthology.org/2023.tllm-1.3/",
+    pdfLink: "https://aclanthology.org/2023.tllm-1.3.pdf"
+  },
+  // Add more publications here (template bellow)
+//      {
+//    authors: "Amelie Wührl, Yarik Menchaca Resendiz, Lara Grimminger, and Roman Klinger",
+//    title: "What makes medical claims (un)verifiable? analyzing entity and relation properties for fact verification",
+//    editors: "Yvette Graham and Matthew Purver, editors",
+//    conference: "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+//    location: "St. Julian's, Malta",
+//    pages: "2046--2058",
+//    month: "March",
+//    year: 2024,
+//    organization: "Association for Computational Linguistics",
+//    arxivLink: "https://arxiv.org/abs/2402.01360",
+//    httpLink: "https://aclanthology.org/2024.eacl-long.124/",
+//    pdfLink: "https://aclanthology.org/2024.eacl-long.124.pdf"
+//  },
+];
+
+// Populate the publications section
+const publicationsList = document.getElementById('publications-list');
+
+publications.forEach(pub => {
+  const listItem = document.createElement('li');
+
+  // Dynamically build the publication content based on available fields
+  let content = '';
+
+  if (pub.authors) content += `${pub.authors}. `;
+  if (pub.title) content += `<strong>${pub.title}</strong>.`;
+  if (pub.editors) content += `${pub.editors}. `;
+  if (pub.conference) content += `<i>${pub.conference}</i>, `;
+  if (pub.pages) content += `pages ${pub.pages}, `;
+  if (pub.location) content += `${pub.location}, `;
+  if (pub.month) content += `${pub.month} `;
+  if (pub.year) content += `${pub.year}. `;
+  if (pub.organization) content += `${pub.organization}. `;
+
+  // Build the links section only if the links exist
+  let links = '';
+  if (pub.bibLink) links += `<a href="${pub.bibLink}" target="_blank">[bib]</a> `;
+  if (pub.arxivLink) links += `<a href="${pub.arxivLink}" target="_blank">[arXiv]</a> `;
+  if (pub.httpLink) links += `<a href="${pub.httpLink}" target="_blank">[http]</a> `;
+  if (pub.pdfLink) links += `<a href="${pub.pdfLink}" target="_blank">[pdf]</a> `;
+
+  // Combine the content and the links
+  listItem.innerHTML = `${content} ${links.trim()}<br><br>`;
+  publicationsList.appendChild(listItem);
+});
+
 export const skills = [
   {
     title: "Languages",
