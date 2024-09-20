@@ -100,66 +100,55 @@ publications.forEach(pub => {
 });
 
 export const skills = [
+    {
+    title: "Natural Language Processing",
+    skillName: "NLP, LLMs, Text Generation",
+    color: "5",
+    percentage: "95",
+  },
   {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
+    title: "Machine Learning & Deep Learning",
+    skillName: "AI/ML Methodologies, Model Optimization, Network Architecture",
+    color: "5",
+    percentage: "95",
+  },
+    {
+    title: "Research & Problem-Solving",
+    skillName: "Research & Problem-Solving:",
+    color: "5",
     percentage: "80",
   },
     {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
-    percentage: "80",
-  },
-    {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
-    percentage: "80",
-  },
-    {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
-    percentage: "80",
+    title: "Cloud & DevOps",
+    skillName: "Docker, Azure, AWS",
+    color: "8",
+    percentage: "60",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, RxJS, NGRX/NGXS",
-    color: "6",
-    percentage: "70",
-  },
-  {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "Programming Languages",
+    skillName: "Python, C++, SQL, Java",
     color: "4",
-    percentage: "70",
+    percentage: "90",
   },
-  {
+    {
     title: "Version Control",
     skillName: "GitHub, JIRA, Bitbucket",
-    color: "7",
-    percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Debugging, Chrome DevTools",
-    color: "3",
+    color: "4",
     percentage: "80",
   },
-//   {
-//     title: "Analytics",
-//     skillName: "CleverTap, Countly",
-//     color: "5",
-//     percentage: "50",
-//   },
-//   {
-//     title: "IDE",
-//     skillName: "VS Code",
-//     color: "6",
-//     percentage: "70",
-//   },
+    {
+    title: "Libraries",
+    skillName: "TensorFlow, PyTorch, Keras",
+    color: "2",
+    percentage: "80",
+  },
+      {
+    title: "Libraries",
+    skillName: "Spacy, NLTK, Transformers",
+    color: "2",
+    percentage: "95",
+  },
+
 ];
 
 export const projects = {
