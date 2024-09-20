@@ -76,7 +76,7 @@ import { URLs } from './user-data/urls.js';
   } = basics;
   
   // added title of page
-    window.parent.document.title = name;
+    window.parent.document.title = "Yarik MR";
   }
   
   /**
