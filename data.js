@@ -71,6 +71,136 @@ const publications = [
 // Populate the publications section
 const publicationsList = document.getElementById('publications-list');
 
+export const certifications = [
+  {
+    name: "TensorFlow Developer",
+    link: "pdfs/Specialization_TensorFlow_Developer.pdf",
+  },
+    {
+    name: "Introduction to Deep Learning in Python",
+    link: "pdfs/introduction_to_deep_learning_python.pdf",
+  },
+  {
+    name: "Deep Learning in Python",
+    link: "pdfs/Deep_Learning_in_Python_Course.pdf",
+  },
+  {
+    name: "Advance Deep Learning with Keras in Python",
+    link: "pdfs/Advanced_deep_Learning_with_Keras.pdf",
+  },
+  {
+    name: "Learning TensorFlow with JavaScript",
+    link: "",
+  },
+  {
+    name: "Statistics Foundations 1.pdf",
+    link: "pdfs/Statistics Foundations 1.pdf",
+  },
+    {
+    name: "Statistics Foundations 2.pdf",
+    link: "pdfs/Statistics Foundations 2.pdf",
+  },
+    {
+    name: "Statistics Foundations 3.pdf",
+    link: "pdfs/Statistics Foundations 3.pdf",
+  },
+    {
+    name: "Building Web Applications in R with Shiny Course",
+    link: "pdfs/Building_Web_Applications_in_R_with_Shiny_Course.pdf",
+  },
+
+  {
+    name: "Building Deep Learning Applications with Keras 2.0",
+    link: "pdfs/Building Deep Learning Applications With Keras 2 0.pdf",
+  },
+    {
+    name: "Introduction to Deep Learning with OpenCV",
+    link: "pdfs/Introduction to Deep Learning with OpenCV.pdf",
+  },
+    {
+    name: "Introduction to TensorFlow for Artificial Intelligence",
+    link: "pdfs/introduction_to_tensorflow_for_artificial_intelince.pdf",
+  },
+    {
+    name: "Sequences, Time Series and Prediction",
+    link: "pdfs/squences_time_series_and_predictions.pdf",
+  },
+      {
+    name: "Natural Language Processing in TensorFlow",
+    link: "",
+  },
+      {
+    name: "Convolutional Neural Networks in TensorFlow",
+    link: "pdfs/convulutional_neural_networks_in_tensorflow_2.pdf",
+  },
+        {
+    name: "Custom Model, Layers, and Loss Functions with TensorFlow",
+    link:""
+    },
+      {
+    name: "Machine Learning for Marketing: Essential Training",
+    link: "",
+  },
+      {
+    name: "Artificial Intelligence Foundations: Thinking Machines",
+    link: "",
+  },
+      {
+    name: "Introduction to Recommender Systems",
+    link: "",
+  },
+      {
+    name: "Natural LanguageProcessing",
+    link: "",
+  },
+      {
+    name: "Design database MYSQL",
+    link: "pdfs/Desing DataBase MYSQL.pdf",
+  },
+      {
+    name: "R Statistics Essential Training",
+    link: "",
+  },
+     {
+    name: "Introduction to R",
+    link: "pdfs/Introduction_to_R_Course.pdf",
+  },
+      {
+    name: "Linux administrator",
+    link: "",
+  },
+      {
+    name: "Data Analysis in R, the data.table Way",
+    link: "pdfs/Data_Analysis_in_R.pdf",
+  },
+      {
+    name: "Big Data Processing, Data exploration with Scala and Apache Spark",
+    link: "",
+  },
+      {
+    name: "Financial Markets",
+    link: "",
+  },
+      {
+    name: "Python programmer Jr.",
+    link: "pdfs/PYTHON_jr.pdf",
+  },
+      {
+    name: "Fundamentals Building Apps for Wearables",
+    link: "pdfs/fundamentals building apps for werables.pdf",
+  },
+      {
+    name: "Web Design Fundamentals",
+    link: "pdfs/Fundamentos_Web.pdf",
+  },
+      {
+    name: "Gig Data Processing, Data Exploration with Scala and Apache Spark",
+    link: "pdfs/HADOOP2.pdf",
+  }
+
+
+];
+
 publications.forEach(pub => {
   const listItem = document.createElement('li');
 

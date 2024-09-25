@@ -5,6 +5,7 @@ import {
     education,
     experience,
     footer,
+    certifications,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -468,6 +469,36 @@ import { URLs } from './user-data/urls.js';
       return (years == 1) ? `${years} year ago` : `${years} years ago`;
     }
   }
+
+// Find the certifications section in the DOM
+const certificationsSection = document.getElementById('certifications-section');
+
+// Iterate over the certifications array and create the items dynamically
+certifications.forEach(cert => {
+  // Create a div for each certification
+  const certificationDiv = document.createElement('div');
+  certificationDiv.classList.add('certification-item');
+
+  // Add the certification name
+  const certName = document.createElement('span');
+  certName.textContent = cert.name;
+  certificationDiv.appendChild(certName);
+
+  // Only add the view icon if a link exists
+  if (cert.link) {
+    const viewIcon = document.createElement('a');
+    viewIcon.href = cert.link;
+    viewIcon.target = "_blank"; // Open in a new tab
+    viewIcon.classList.add('certification-icon');
+    viewIcon.innerHTML = '<i class="fas fa-file-pdf"></i>'; // Font Awesome document icon
+
+    // Append the icon to the certification div
+    certificationDiv.appendChild(viewIcon);
+  }
+
+  // Append the certification div to the certifications section
+  certificationsSection.appendChild(certificationDiv);
+});
 
   populateBio(bio, "bio");
   

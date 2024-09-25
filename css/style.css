@@ -1326,7 +1326,8 @@ body.offcanvas .colorlib-nav-toggle {
 	width: 100%;
 	float: left;
 	background: #fff;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
+	padding: 10px;
 }
 @media screen and (max-width: 768px) {
 	.blog-entry {
@@ -1355,7 +1356,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .blog-entry .desc h3 {
 	font-size: 16px;
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 	line-height: auto;
 	font-weight: 500;
 	letter-spacing: 0.5px;
@@ -1366,7 +1367,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .blog-entry .desc span {
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 12px;
 	color: rgba(0, 0, 0, 0.4) !important;
 	text-transform: uppercase;
@@ -2245,11 +2246,47 @@ span {
 }
 
 .readmore {
-	color: #000;
+	color: #e74c3c;
+}
+.readmore a:hover {
+  color: #c0392b; /* Darker red on hover */
+  text-decoration: underline;
 }
 .readmore p{
-	padding-bottom: 10px;
+	padding-bottom: 5px;
     text-align: right;
     font-weight: 600;
 }
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+  gap: 5px; /* Space between items */
+  padding: 5px 0; /* Padding around the section */
+}
+
+.certification-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.certification-icon {
+  font-size: 24px;
+  color: #e74c3c; /* Red color for the icon to match the overall design */
+}
+
+.certification-icon:hover {
+  color: #c0392b; /* Darker red on hover */
+  cursor: pointer;
+}
+
 
