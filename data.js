@@ -93,7 +93,7 @@ export const certifications = [
     link: "",
   },
   {
-    name: "Statistics Foundations 1.pdf",
+    name: "Statistics Foundations 1",
     link: "pdfs/Statistics Foundations 1.pdf",
   },
     {
@@ -150,7 +150,7 @@ export const certifications = [
     link: "",
   },
       {
-    name: "Natural LanguageProcessing",
+    name: "Natural Language Processing",
     link: "",
   },
       {

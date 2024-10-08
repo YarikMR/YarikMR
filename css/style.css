@@ -2265,9 +2265,9 @@ span {
 }
 
 .certification-item {
-  background-color: #f9f9f9;
-  padding: 15px;
-  border-radius: 8px;
+  background-color: #f9f9f8;
+  padding: 1px;
+  border-radius: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2275,12 +2275,12 @@ span {
 }
 
 .certification-item span {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .certification-icon {
-  font-size: 24px;
+  font-size: 20px;
   color: #e74c3c; /* Red color for the icon to match the overall design */
 }
 
