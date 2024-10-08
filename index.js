@@ -119,6 +119,7 @@ import { URLs } from './user-data/urls.js';
   
       const divProgress = getElement("div", "progress");
       const divProgressBar = getElement("div", `progress-bar color-${color}`);
+      divProgress.style.backgroundColor = "#d3d3d3" // Darker gray background for unfilled portion
       divProgressBar.style = `width: ${percentage}%`;
       divProgress.append(divProgressBar);
   

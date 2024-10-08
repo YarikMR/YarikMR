@@ -237,29 +237,17 @@ export const skills = [
   },
   {
     title: "Machine Learning & Deep Learning",
-    skillName: "AI/ML Methodologies, Model Optimization, Network Architecture",
+    skillName: "Machine Learning & Deep Learning",
     color: "5",
     percentage: "95",
   },
-    {
-    title: "Research & Problem-Solving",
-    skillName: "Research & Problem-Solving:",
-    color: "5",
-    percentage: "80",
-  },
-    {
-    title: "Cloud & DevOps",
-    skillName: "Docker, Azure, AWS",
-    color: "8",
-    percentage: "60",
-  },
   {
     title: "Programming Languages",
-    skillName: "Python, C++, SQL, Java",
+    skillName: "Python, R, SQL, C++, Java, C++, Matlab, ...",
     color: "4",
     percentage: "90",
   },
-    {
+  {
     title: "Version Control",
     skillName: "GitHub, JIRA, Bitbucket",
     color: "4",
@@ -267,17 +255,28 @@ export const skills = [
   },
     {
     title: "Libraries",
-    skillName: "TensorFlow, PyTorch, Keras",
+    skillName: "TensorFlow, PyTorch, Keras, Scikit-learn, ... ",
     color: "2",
     percentage: "80",
   },
       {
     title: "Libraries",
-    skillName: "Spacy, NLTK, Transformers",
+    skillName: "Transformers, Spacy, NLTK, Numpy, Pandas, ... ",
     color: "2",
     percentage: "95",
   },
-
+        {
+    title: "Visualization",
+    skillName: "Matplotlib, Searborn,  Pyplot, Shiny, Power Bi, ... ",
+    color: "1",
+    percentage: "95",
+  },
+    {
+    title: "Cloud & DevOps",
+    skillName: "Model Deployment, Docker, Azure, AWS",
+    color: "8",
+    percentage: "70",
+  },
 ];
 
 export const projects = {
@@ -400,9 +399,11 @@ export const experience = [
     title: "Data Scientist",
     duration: "Jun 2018 - Oct 2021",
     subtitle: "Kantar, México",
-    details: ["Researched and developed AI/ML methodologies for large language models, chatbots, text mining, basket analysis, and prediction.",
-    "Created a natural language processing application for 10 languages.",
-    "Implemented machine learning techniques such as deep neural networks, regression, and decision trees."],
+    details: ["Researched and developed AI/ML methodologies for data analysis and insights to help brands make data-driven decisions and enhance their marketplace performance.",
+    "Built TextAI’s engine, an in-house text mining tool for Named Entity Recognition, Sentiment Analysis, Machine Translation, Topic Modeling, and Topic Naming, supporting 10 languages (English, Spanish, German, French, Portuguese, Chinese, etc.).",
+    "Developed domain-specific to general language machine translation models that convert specialized language (e.g., legal, medical, technical jargon) into general language, improving accessibility and understanding for wider audiences.",
+    "Created a machine learning model to analyze user purchase behavior, identifying frequently bought products, suggest suitable substitutes, and categorizing items for personalized recommendations.",
+    "Developed model distillation and quantization techniques to optimize inference performance and cloud deployment."],
     tags: ["Azure", "Docker", "NLP", "Recommender Systems", "Market Research", "TensorFlow", "Python"],
     icon: "globe",
   },
@@ -410,7 +411,7 @@ export const experience = [
     title: "Research Intern",
     duration: "Feb 2017 - Aug 2017",
     subtitle: "University of Wolverhampton, United Kingdom",
-    details: ["Developed a sentiment analysis application for Spanish texts."],
+    details: ["Developed a Machine Learning Sentiment Analysis application for Spanish texts."],
     tags: ["Sentiment Analysis", "Python", "NLP", "Recommender Systems", "Social Media"],
     icon: "language",
   },
