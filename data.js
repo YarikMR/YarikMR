@@ -579,10 +579,11 @@ blogs.forEach(blog => {
   const listItem = document.createElement('li');
   listItem.innerHTML = `
     <h3>${blog.title}</h3>
-    <p><strong>${blog.platform}</strong></p>
-    <p>${blog.description}</p>
-    <a href="${blog.link}" target="_blank">Read more &RightArrow;</a>
-    <br><br>
+    <strong>${blog.platform}</strong>
+    <br>
+    ${blog.description}
+    <a href="${blog.link}" target="_blank" style="color: black;">Read more &RightArrow;</a>
+    <hr class="blog-divider">
   `;
   blogsList.appendChild(listItem);
 });

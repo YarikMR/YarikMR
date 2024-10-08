@@ -1326,8 +1326,8 @@ body.offcanvas .colorlib-nav-toggle {
 	width: 100%;
 	float: left;
 	background: #fff;
-	margin-bottom: 1em;
-	padding: 10px;
+	margin-bottom: 0.5em;
+	padding: 5px;
 }
 @media screen and (max-width: 768px) {
 	.blog-entry {
@@ -1356,7 +1356,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .blog-entry .desc h3 {
 	font-size: 16px;
-	margin-bottom: 5px;
+	margin-bottom: 1px;
 	line-height: auto;
 	font-weight: 500;
 	letter-spacing: 0.5px;
@@ -1367,8 +1367,8 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .blog-entry .desc span {
 	display: block;
-	margin-bottom: 10px;
-	font-size: 12px;
+	margin-bottom: 5px;
+	font-size: 10px;
 	color: rgba(0, 0, 0, 0.4) !important;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1388,6 +1388,13 @@ body.offcanvas .colorlib-nav-toggle {
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+.blog-divider {
+  border: none;
+  border-top: 1px solid black; /* Thin line */
+  margin: 0px 0; /* Minimal margin for compactness */
+  height: 0px; /* Set the height of the line */
 }
 
 .work-menu span {
