@@ -1,6 +1,5 @@
 export const bio = [
-"I'm a Ph.D. candidate in Computational Linguistics, specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With experience in both academic and industry research, I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I’ve also taught and mentored students, and I enjoy applying my skills to solve real-world problems, whether it's through research or implementing AI-driven solutions.",
-];
+"I am a final-year Ph.D. candidate specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With a strong background in both academic and industry research. I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I have also taught and mentored students. I enjoy applying my skills to solve real-world problems, whether it’s through research or implementing AI-driven solutions."];
 
 const publications = [
   {
@@ -439,7 +438,7 @@ export const education = [
     title: "Ph.D. in Computational Linguistics.",
     duration: "Jul 2021 - Dec 2024",
     subtitle: "University of Stuttgart, Germany",
-    details: [],
+    details: ["Focused on guiding and conditioning LLMs outputs using psychological emotion theories to improve their emotional intelligence and adaptability. Developed multi-objective prompt optimization techniques for LLMs and applied reinforcement learning through LLMs prompt optimization."],
     tags: [
       "Natural Language Processing (NLP) & Large Language Models (LLMs)",
       "Prompt Optimization & Text Generation",
@@ -455,7 +454,8 @@ export const education = [
     title: "M.Sc. in Computer Science.",
     duration: "2015 - 2017",
     subtitle: "Instituto Politécnico Nacional, México",
-    details: [],
+    details: ["Final Grade: 9.8/10 (Graduated with Honors).",
+"Thesis title: Stress and Relaxation Strength Detection of Spanish Tweets."],
     tags: [
       "Natural Language Processing (NLP) & Recommender Systems",
       "Sentiment Analysis",
@@ -469,10 +469,11 @@ export const education = [
   },
 
       {
-    title: "B.E. Computer Engineering.",
+    title: "B.Eng. Computer Science",
     duration: "2011 - 2015",
     subtitle: "Instituto Politécnico Nacional, México",
-    details: [],
+    details: ["Final Grade: 8.3/10.",
+"Thesis title: Intelligent and Adaptive Alert System for Gas Leak Detection in Stoves with Real-Time Notifications to Email and Mobile Devices."],
     tags: [
       "Algorithms",
       "Python",
@@ -483,10 +484,10 @@ export const education = [
   },
 
   {
-    title: "Computer Technician",
+    title: "Technician in Computer Systems",
     duration: "2008 - 2011",
     subtitle: "CBtis 03, México",
-    details: [],
+    details: ["Hardware maintenance, network configuration, software development, system management, database."],
     tags: ["C++", "Matlab", "Java"],
     icon: "graduation-cap",
 //    icon: "book",
