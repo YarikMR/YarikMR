@@ -3,7 +3,7 @@ export const bio = [
 
 const publications = [
   {
-    authors: "Amelie Wuehrl, Lynn Greschner, Yarik Menchaca Resendiz, and Roman Klinger",
+    authors: "Yarik Menchaca Resendiz, Amelie Wuehrl, Lynn Greschner, and Roman Klinger",
     title: "IMS_medicALY at #SMM4H 2024: Detecting impacts of outdoor spaces on social anxiety with data augmented ensembling",
     conference: " Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
     organization: "Association for Computational Linguistics",
@@ -89,7 +89,7 @@ export const certifications = [
   },
   {
     name: "Learning TensorFlow with JavaScript",
-    link: "",
+    link: "pdfs/Learning TensorFlow with JavaScript.pdf",
   },
   {
     name: "Statistics Foundations 1",
@@ -134,22 +134,18 @@ export const certifications = [
   },
         {
     name: "Custom Model, Layers, and Loss Functions with TensorFlow",
-    link:""
+    link:"pdfs/Custom_models_layers_and_loss_functions_with _TensorFlow.pdf"
     },
       {
     name: "Machine Learning for Marketing: Essential Training",
-    link: "",
+    link: "pdfs/Machine Learning for Marketing Essential Training.pdf",
   },
       {
     name: "Artificial Intelligence Foundations: Thinking Machines",
-    link: "",
+    link: "pdfs/Artificial Intelligence Foundations Thinking Machines.pdf",
   },
       {
     name: "Introduction to Recommender Systems",
-    link: "",
-  },
-      {
-    name: "Natural Language Processing",
     link: "",
   },
       {
@@ -158,7 +154,7 @@ export const certifications = [
   },
       {
     name: "R Statistics Essential Training",
-    link: "",
+    link: "pdfs/R Statistics Essential Training.pdf",
   },
      {
     name: "Introduction to R",
@@ -173,12 +169,8 @@ export const certifications = [
     link: "pdfs/Data_Analysis_in_R.pdf",
   },
       {
-    name: "Big Data Processing, Data exploration with Scala and Apache Spark",
-    link: "",
-  },
-      {
     name: "Financial Markets",
-    link: "",
+    link: "pdfs/Financial_Markets.pdf",
   },
       {
     name: "Python programmer Jr.",
@@ -196,8 +188,6 @@ export const certifications = [
     name: "Gig Data Processing, Data Exploration with Scala and Apache Spark",
     link: "pdfs/HADOOP2.pdf",
   }
-
-
 ];
 
 publications.forEach(pub => {
@@ -245,7 +235,7 @@ export const skills = [
     title: "Programming Languages",
     skillName: "Python, R, SQL, C++, Java, C++, Matlab, ...",
     color: "4",
-    percentage: "90",
+    percentage: "98",
   },
   {
     title: "Version Control",
@@ -269,7 +259,7 @@ export const skills = [
     title: "Visualization",
     skillName: "Matplotlib, Searborn,  Pyplot, Shiny, Power Bi, ... ",
     color: "1",
-    percentage: "95",
+    percentage: "70",
   },
     {
     title: "Cloud & DevOps",
