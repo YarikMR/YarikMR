@@ -370,7 +370,7 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Graduate Research Assistant",
+    title: "Researcher",
     duration: "Apr 2024 - Dec 2024",
     subtitle: "Otto-Friedrich-Universität Bamberg, Germany",
     details: ["Conducted research on prompt optimization methods for language models and managed cloud GPU server environments for large-scale language model deployment."],
@@ -378,10 +378,11 @@ export const experience = [
     icon: "language",
   },
     {
-    title: "Graduate Teaching Assistant",
+    title: "Researcher",
     duration: "Apr 2022 - Mar 2024",
     subtitle: "University of Stuttgart, Germany",
-    details: ["Taught, evaluated, and supervised bachelor's and master's students in Natural Language Processing courses, including Information Retrieval and Teamlab, focusing on practical applications and research mentorship."],
+    details: ["Conducted research on Multi-Objective Prompt Optimization methods for language models",
+    "Taught, evaluated, and supervised bachelor's and master's students in Natural Language Processing courses, including Information Retrieval and Teamlab, focusing on practical applications and research mentorship."],
     tags: ["Python", "Git", "NLP", "Algorithms", "LLMs", "TensorFlow"],
     icon: "book",
   },
