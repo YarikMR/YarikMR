@@ -3,6 +3,15 @@ export const bio = [
 
 const publications = [
   {
+  authors: "Yarik Menchaca Resendiz, and Roman Klinger",
+  title: " MOPO: Multi-objective prompt optimization for affective text generation",
+  conference: " Proceedings of the 31st International Conference on Computational Linguistics",
+  organization: "Association for Computational Linguistics",
+  year: 2025,
+  httpLink: "https://aclanthology.org/2025.coling-main.375/",
+  pdfLink: "https://aclanthology.org/2025.coling-main.375.pdf"
+  },
+  {
     authors: "Yarik Menchaca Resendiz, Amelie Wuehrl, Lynn Greschner, and Roman Klinger",
     title: "IMS_medicALY at #SMM4H 2024: Detecting impacts of outdoor spaces on social anxiety with data augmented ensembling",
     conference: " Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
@@ -10,6 +19,15 @@ const publications = [
     year: 2024,
     httpLink: "https://aclanthology.org/2024.smm4h-1.19/",
     pdfLink: "https://aclanthology.org/2024.smm4h-1.19.pdf"
+  },
+  {
+  authors: "Yarik Menchaca Resendiz, and Roman Klinger",
+  title: " Llm-based affective text generation quality based on different quantization values",
+  conference: " ",
+  organization: "",
+  year: 2025,
+  httpLink: "https://arxiv.org/abs/2501.19317",
+  pdfLink: "https://arxiv.org/pdf/2501.19317"
   },
   {
     authors: "Amelie Wührl, Yarik Menchaca Resendiz, Lara Grimminger, and Roman Klinger",
