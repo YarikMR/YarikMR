@@ -2,8 +2,17 @@ export const bio = [
 "I am a final-year Ph.D. candidate specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With a strong background in both academic and industry research. I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I have also taught and mentored students. I enjoy applying my skills to solve real-world problems, whether it’s through research or implementing AI-driven solutions."];
 
 const publications = [
+      {
+  authors: "Johannes Schäfer, Aidan Combs, Christopher Bagdon, Jiahui Li, Nadine Probol, Lynn Greschner, Sean Papay, <strong>Yarik Menchaca Resendiz</strong>, Aswathy Velutharambath, Amelie Wührl, Sabine Weber, and Roman Klinger.",
+  title: " Which demographics do llms default to during annotation?",
+  conference: " In Proceedings of the 63nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  organization: "Association for Computational Linguistics",
+  year: 2025,
+  httpLink: "https://arxiv.org/abs/2410.08820",
+  pdfLink: "https://arxiv.org/pdf/2410.08820"
+  },
   {
-  authors: "Yarik Menchaca Resendiz, and Roman Klinger",
+  authors: "<strong>Yarik Menchaca Resendiz</strong>, and Roman Klinger",
   title: " MOPO: Multi-objective prompt optimization for affective text generation",
   conference: " Proceedings of the 31st International Conference on Computational Linguistics",
   organization: "Association for Computational Linguistics",
@@ -12,7 +21,7 @@ const publications = [
   pdfLink: "https://aclanthology.org/2025.coling-main.375.pdf"
   },
   {
-    authors: "Yarik Menchaca Resendiz, Amelie Wuehrl, Lynn Greschner, and Roman Klinger",
+    authors: "<strong>Yarik Menchaca Resendiz</strong>, Amelie Wuehrl, Lynn Greschner, and Roman Klinger",
     title: "IMS_medicALY at #SMM4H 2024: Detecting impacts of outdoor spaces on social anxiety with data augmented ensembling",
     conference: " Proceedings of The 9th Social Media Mining for Health Research and Applications (SMM4H 2024) Workshop and Shared Tasks",
     organization: "Association for Computational Linguistics",
@@ -21,7 +30,7 @@ const publications = [
     pdfLink: "https://aclanthology.org/2024.smm4h-1.19.pdf"
   },
   {
-  authors: "Yarik Menchaca Resendiz, and Roman Klinger",
+  authors: "<strong>Yarik Menchaca Resendiz</strong>, and Roman Klinger",
   title: " Llm-based affective text generation quality based on different quantization values",
   conference: " ",
   organization: "",
@@ -30,7 +39,7 @@ const publications = [
   pdfLink: "https://arxiv.org/pdf/2501.19317"
   },
   {
-    authors: "Amelie Wührl, Yarik Menchaca Resendiz, Lara Grimminger, and Roman Klinger",
+    authors: "Amelie Wührl, <strong>Yarik Menchaca Resendiz</strong>, Lara Grimminger, and Roman Klinger",
     title: "What makes medical claims (un)verifiable? analyzing entity and relation properties for fact verification",
     editors: "Yvette Graham and Matthew Purver, editors",
     conference: "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
@@ -44,7 +53,7 @@ const publications = [
     pdfLink: "https://aclanthology.org/2024.eacl-long.124.pdf"
   },
   {
-    authors: "Yarik Menchaca Resendiz and Roman Klinger",
+    authors: "<strong>Yarik Menchaca Resendiz</strong> and Roman Klinger",
     title: "Affective natural language generation of event descriptions through fine-grained appraisal conditions",
     conference: "Proceedings of the 16th International Conference on Natural Language Generation",
     location: "Prague, Czech Republic",
@@ -56,7 +65,7 @@ const publications = [
     pdfLink: "https://aclanthology.org/2023.inlg-main.26.pdf"
   },
   {
-    authors: "Yarik Menchaca Resendiz and Roman Klinger",
+    authors: "<strong>Yarik Menchaca Resendiz</strong> and Roman Klinger",
     title: "Emotion-conditioned text generation through automatic prompt optimization.",
     conference: "Proceedings of the 1st Workshop on Taming Large Language Models: Controllability in the era of Interactive Assistants!",
     location: "Prague, Czech Republic",
@@ -387,9 +396,18 @@ export const projects = {
 };
 
 export const experience = [
-  {
+      {
     title: "Researcher",
-    duration: "Apr 2024 - Dec 2024",
+    duration: "Feb 2025 - Dec 2025",
+    subtitle: "Leibniz-Institut für Psychologie (ZPID), Germany",
+    details: ["Designed and developed a Retrieved Augmented Generation (RAG) system with a user interface to summarize scientific texts for non-experts, translating user needs into functional features.",
+    "Defined a 37-point evaluation framework and collaborated across a multidisciplinary team."],
+    tags: ["RAG", "LLMs", "Cloud Services", "Pytorch", "TensorFlow", "Machine Translation"],
+    icon: "language",
+  },
+    {
+    title: "Researcher",
+    duration: "Apr 2024 - Jan 2025",
     subtitle: "Otto-Friedrich-Universität Bamberg, Germany",
     details: ["Conducted research on prompt optimization methods for language models and managed cloud GPU server environments for large-scale language model deployment."],
     tags: ["Python", "Git", "Cloud Services", "LLMs", "Pytorch", "TensorFlow"],
@@ -401,7 +419,7 @@ export const experience = [
     subtitle: "University of Stuttgart, Germany",
     details: ["Conducted research on Multi-Objective Prompt Optimization methods for language models",
     "Taught, evaluated, and supervised bachelor's and master's students in Natural Language Processing courses, including Information Retrieval and Teamlab, focusing on practical applications and research mentorship."],
-    tags: ["Python", "Git", "NLP", "Algorithms", "LLMs", "TensorFlow"],
+    tags: ["Python", "Git", "NLP", "Algorithms", "LLMs", "TensorFlow", "Quantization"],
     icon: "book",
   },
   {
@@ -428,31 +446,18 @@ export const experience = [
 ];
 
 export const education = [
-//  {
-//    title: "Ph.D. in Computational Linguistics.",
-//    duration: "Jul 2021 - Dec 2024",
-//    subtitle: "University of Stuttgart, Germany",
-//    details: [],
-//    tags: [
-//      "Natural Language Processing (NLP) & Large Language Models (LLMs)",
-//      "Prompt Optimization & Text Generation",
-//      "Model Optimization"
-//      "Deep Learning & Machine Learning",
-//      "Python Pytorch & TensorFlow",
-//      "Cloud Services",
-//      "GPT-API LangChain Gemini",
-//    ],
-//    icon: "graduation-cap",
-//  },
-  {
+    {
     title: "Ph.D. in Computational Linguistics.",
     duration: "Jul 2021 - Dec 2024",
     subtitle: "University of Stuttgart, Germany",
     details: ["Focused on guiding and conditioning LLMs outputs using psychological emotion theories to improve their emotional intelligence and adaptability. Developed multi-objective prompt optimization techniques for LLMs and applied reinforcement learning through LLMs prompt optimization."],
     tags: [
-      "Natural Language Processing (NLP) & Large Language Models (LLMs)",
+      "Natural Language Processing",
+        "Large Language Models",
+        "Conditional Text Generation",
+        "Quantization",
+        "Reinforcement Learning",
       "Prompt Optimization & Text Generation",
-      "Model Optimization",
       "Deep Learning & Machine Learning",
       "Python, Pytorch & TensorFlow",
       "Cloud Services",
