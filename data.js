@@ -1,5 +1,5 @@
 export const bio = [
-"I am a final-year Ph.D. candidate specializing in Natural Language Processing (NLP), Large Language Models (LLMs), and Artificial Intelligence (AI). With a strong background in both academic and industry research. I focus on developing AI/ML methods, prompt optimization for LLMs, and deploying NLP applications. I have also taught and mentored students. I enjoy applying my skills to solve real-world problems, whether it’s through research or implementing AI-driven solutions."];
+"Final-year Ph.D. candidate (thesis submitted) specializing in Machine Learning, Natural Language Processing, and Large Language Models (LLMs). Proven track record in both academic and industry research, with practical experience in training, fine-tuning, optimizing, quantizing, prompting, and deploying ML models -- particularly LLMs -- in production environments. Skilled in teaching and mentoring, and motivated by solving real-world problems through research and applied solutions."];
 
 const publications = [
       {
