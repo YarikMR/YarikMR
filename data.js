@@ -1,5 +1,5 @@
 export const bio = [
-    "Postdoctoral Researcher specializing in Machine Learning, Natural Language Processing, and Large Language Models (LLMs). Proven track record in academic and industry research, with hands-on experience in end-to-end development -- data preprocessing, training, fine-tuning, optimization, quantization, prompting, and production deployment of ML models, particularly LLMs. Skilled in teaching and mentoring, and motivated by solving real-world problems through research and applied solutions."];
+    "Postdoctoral Researcher specializing in Machine Learning, Natural Language Processing, and Large Language Models (LLMs). Proven track record in academic and industry research, with hands-on experience in end-to-end development – data preprocessing, training, fine-tuning, optimization, quantization, prompting, and production deployment of ML models, particularly LLMs. Skilled in teaching and mentoring, and motivated by solving real-world problems through research and applied solutions."];
 
 const publications = [
     {
