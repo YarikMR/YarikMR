@@ -18,6 +18,32 @@
 	background-color: black;
 	color: white;
   }
+/* ===== Dark mode for Certifications ===== */
+.dark-mode .colorlib-certifications {       /* section wrapper */
+  background: #000;                          /* keep section dark like others */
+}
+
+.dark-mode .certifications-grid {           /* the grid container */
+  background: transparent;
+}
+
+.dark-mode .certification-item {            /* each pill/card */
+  background: #111;                          /* was #f9f9f8 */
+  border: 1px solid #2b2b2b;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+.dark-mode .certification-item span {
+  color: #eee;                               /* ensure text contrasts */
+}
+
+.dark-mode .certification-icon {
+  color: #ff6b6b;                            /* a brighter red on dark */
+}
+
+.dark-mode .certification-icon:hover {
+  color: #ff5252;
+}
 
 /* =======================================================
 *
