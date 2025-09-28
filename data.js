@@ -1,5 +1,5 @@
 export const bio = [
-    "Final-year Ph.D. candidate (thesis submitted) specializing in Machine Learning, Natural Language Processing, and Large Language Models (LLMs). Proven track record in both academic and industry research, with practical experience in training, fine-tuning, optimizing, quantizing, prompting, and deploying ML models -- particularly LLMs -- in production environments. Skilled in teaching and mentoring, and motivated by solving real-world problems through research and applied solutions."];
+    "Postdoctoral Researcher specializing in Machine Learning, Natural Language Processing, and Large Language Models (LLMs). Proven track record in academic and industry research, with hands-on experience in end-to-end development -- data preprocessing, training, fine-tuning, optimization, quantization, prompting, and production deployment of ML models, particularly LLMs. Skilled in teaching and mentoring, and motivated by solving real-world problems through research and applied solutions."];
 
 const publications = [
     {
@@ -448,7 +448,7 @@ export const experience = [
 export const education = [
     {
         title: "Ph.D. in Computational Linguistics.",
-        duration: "Jul 2021 - Dec 2024",
+        duration: "Jul 2021 - Feb 2025",
         subtitle: "University of Stuttgart, Germany",
         details: ["Focused on guiding and conditioning LLMs outputs using psychological emotion theories to improve their emotional intelligence and adaptability. Developed multi-objective prompt optimization techniques for LLMs and applied reinforcement learning through LLMs prompt optimization."],
         tags: [
